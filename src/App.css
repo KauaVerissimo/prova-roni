@@ -1,0 +1,33 @@
+body {
+  background-color: black; /* Cor de fundo preta */
+  color: rgb(2, 133, 255); /* Cor do texto branca */
+  font-family: 'Arial', sans-serif; /* Adicione uma fonte padrão se desejar */
+  margin: 0;
+}
+.navigation {
+  margin-top: 20px;
+  background-color: #add8e6; /* Azul claro */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #646cff;
+}
